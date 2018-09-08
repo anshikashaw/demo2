@@ -90,11 +90,14 @@ font-family: 'Oswald';
 color: #fff;
 font-size:300%;
 }
-	  @media (max-width:300px){
-	  .carousel-inner{
+	  @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+	    .carousel-inner{
 	height:253.33px !important;
-	}
-	  }
+	} }
+
 @media (max-width:600px){
 	.carousel-caption
 	{
